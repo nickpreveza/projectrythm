@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7229099441385819613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7229099441385819615}
+  - component: {fileID: 7229099441385819614}
+  - component: {fileID: 3638806305122873732}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7229099441385819615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7229099441385819613}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7229099441385819614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7229099441385819613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1f737bddc5efb4c89b395a0aa9772d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visuals: {fileID: 0}
+  data:
+    leaderboardNames: []
+    leaderboardScores: 
+    playerName: 
+  isDebug: 1
+  rotationSpeedMultiplier: 1
+  meteorSpawnChance: 0.34
+  is_paused: 0
+  gameHasStarted: 0
+  State: 2
+  pointCanvas: {fileID: 0}
+  pointHandler: {fileID: 0}
+  kinect: {fileID: 0}
+  pointPrefabUI: {fileID: 444923848189347736, guid: 82346fd52b5b2844b902b58bd4d7a5a1, type: 3}
+  globalVolume: {fileID: 0}
+  planetHandler: {fileID: 0}
+  hardLevel: {fileID: 0}
+  easyLevel: {fileID: 0}
+  destructionParticleEffect: {fileID: 1301834771322322933, guid: 20530242f88c4404a84c5e2ea31110f0, type: 3}
+  currentLevel: 0
+--- !u!114 &3638806305122873732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7229099441385819613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cdc3d9251ea494eb43db4ad49947b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonRotationSpeed: 0.5
+  earlyState: {fileID: 21300000, guid: b21d46d00d5c5eb4788d09f36d37a28f, type: 3}
+  perfectState: {fileID: 21300000, guid: 1a5b0f87032be284fb3c49cc316bf3ef, type: 3}
+  lateState: {fileID: 21300000, guid: a3df58df9f2402645b72816cbb731663, type: 3}
+  earlyState_interacted: {fileID: 21300000, guid: eb8b9512822bf24499f95e8070166510, type: 3}
+  perfectState_interacted: {fileID: 21300000, guid: 0ce57527d8b12364dab5b16ea0d306b3, type: 3}
+  lateState_interacted: {fileID: 21300000, guid: a3df58df9f2402645b72816cbb731663, type: 3}
+  topBlocks:
+  - {fileID: 21300000, guid: 5263c0a7dc791bf4d903202ba8b37656, type: 3}
+  - {fileID: 21300000, guid: f4fd32d9877ea2345b3ca9d9c1505cc2, type: 3}
+  - {fileID: 21300000, guid: adf8daf51f417a948ba1ef282eb6d34f, type: 3}
+  - {fileID: 21300000, guid: 0cf5496bb7595174ab26db1bdc87d548, type: 3}
+  - {fileID: 21300000, guid: 82aa2ec32aa27ce4984f1c2129db4bec, type: 3}
+  - {fileID: 21300000, guid: 6467ddac4d9be304cb3c838a851f97f4, type: 3}
+  - {fileID: 21300000, guid: 2d3c9eac26dd92145be250ad4f973af7, type: 3}
+  - {fileID: 21300000, guid: a0c18300ab96e5f4282f216513c2d9d4, type: 3}
+  midBlocks:
+  - {fileID: 21300000, guid: 86402161fa0206e49b796a688ab46d76, type: 3}
+  - {fileID: 21300000, guid: a892caf421c60be499642cf0d041ee5a, type: 3}
+  - {fileID: 21300000, guid: 64abb1218074b28438d6c43d8df32899, type: 3}
+  - {fileID: 21300000, guid: 9bffa544b0b430b4b98f283bc0a85820, type: 3}
+  - {fileID: 21300000, guid: bd54e470732d2b3499c98ee1aba85a01, type: 3}
+  - {fileID: 21300000, guid: f83fd1d79a5669e44ab330dcfbf7b1e8, type: 3}
+  - {fileID: 21300000, guid: d1732b8cb30b258459d003a2364314f4, type: 3}
+  - {fileID: 21300000, guid: 95e15abae28ed2d4898efd81aab5d197, type: 3}
+  bottomBlocks:
+  - {fileID: 21300000, guid: 533ddacd27eec3a489c059b1119f9806, type: 3}
+  - {fileID: 21300000, guid: d911305df0c2aab4bba9dde775f5576a, type: 3}
+  - {fileID: 21300000, guid: ce3e5c29d7bb40347aacd07b538eab48, type: 3}
+  - {fileID: 21300000, guid: 04db15e165d43ce4e8b37ba8c66293dc, type: 3}
+  - {fileID: 21300000, guid: 854454e9809199d47a2486395854ebe6, type: 3}
+  - {fileID: 21300000, guid: d3152c13ce17788478b2f4c0e2ca0765, type: 3}
+  - {fileID: 21300000, guid: c9acf0f1caf6ae644863aa264629a7b5, type: 3}
+  - {fileID: 21300000, guid: 1507aa3edcb208d4baa42d5680594486, type: 3}
+  narrowTopBlocks:
+  - {fileID: 21300000, guid: dcaade91a56d05c439a4e2f1afd76068, type: 3}
+  - {fileID: 21300000, guid: 14e74e0beb292644f8b0d0eb4b8d6086, type: 3}
+  - {fileID: 21300000, guid: 61401a7cf4879464d864622df31aa430, type: 3}
+  - {fileID: 21300000, guid: 1fd0ea0970d8664408c348968f76d952, type: 3}
+  - {fileID: 21300000, guid: 3dc248d59bbcfd94aa308100dbdd0b70, type: 3}
+  narrowMidBlocks:
+  - {fileID: 21300000, guid: 7501a43fe956aa547acb8d459e0197c9, type: 3}
+  - {fileID: 21300000, guid: 29517f867df418542a43323af4226d42, type: 3}
+  - {fileID: 21300000, guid: 46df1b61068db534c9f86a4dde5d7800, type: 3}
+  - {fileID: 21300000, guid: b1f14f4cc97903444901c3cd2f594605, type: 3}
+  - {fileID: 21300000, guid: 533e83a9bab215e4d988ecb5e7f0b68a, type: 3}
+  narrowBottomBlocks:
+  - {fileID: 21300000, guid: e3e6066bf9861d547a432b3fe493c821, type: 3}
+  - {fileID: 21300000, guid: 6c3b34e76a20381469c53e15ce0efc2f, type: 3}
+  - {fileID: 21300000, guid: 41967bc206fcb8f40adec431a3db1e90, type: 3}
+  - {fileID: 21300000, guid: 34fdffec964ff504597ba4399d013fa1, type: 3}
+  - {fileID: 21300000, guid: 5a27e5fdfd4621f4c967701863848845, type: 3}
+  explosions:
+  - {fileID: 2648998895523206147, guid: 87277435d9481f84696055d8327a8106, type: 3}
+  - {fileID: 2648998895523206147, guid: 87277435d9481f84696055d8327a8106, type: 3}
+  feedbackSprites: []
+  meteoriteColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 0.7963656, b: 0.7490566, a: 1}
+  - {r: 0.9393082, g: 0.63584906, b: 1, a: 1}
+  - {r: 1, g: 0.6264151, b: 0.82012576, a: 1}
+  buildingColors:
+  - {r: 0.84705883, g: 0.7254902, b: 1, a: 1}
+  - {r: 0.58201313, g: 0.53640085, b: 0.7735849, a: 1}
+  - {r: 0.7830189, g: 0.5281684, b: 0.682264, a: 1}
+  - {r: 0.7294118, g: 0.45882353, b: 0.627451, a: 1}
+  narrowBuildingColors: []

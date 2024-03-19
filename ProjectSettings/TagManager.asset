@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - House
+  - Target
+  - DestructionZone
+  - Holder
+  - Cursor
+  - LeftMeteor
+  - RightMeteor
+  - LeftSpawner
+  - RightSpawner
+  - RightHand
+  - LeftHand
+  - BuildingSpawn
+  - Planet
+  - ground
+  - Obstacle
+  - BombPickup
+  - Enemy
+  - ExplosionFX
+  - SpawnZone
+  - Bullet
+  - HealthBar
+  - Warning
+  - Blocks
+  - Building
+  - Button
+  - Mouse
+  - AnticipationTrigger
+  - Plant
+  - End
+  - Point
+  - BothWorlds
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Destructable
+  - Hidden
+  - Ground
+  - BothWorlds
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 1935172913
+    locked: 0

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8378943057065395753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5621210929646422050}
+  - component: {fileID: 1652964705567356125}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5621210929646422050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378943057065395753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1652964705567356125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8378943057065395753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c69f4c857f94c418bfdfa54d133296, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  earlyPointsReward: 10
+  perfectPointsReward: 20
+  latePointsReward: 10
+  destructionPointsReward: 7
+  pointsFromDestruciton: 5
+  gradeS: 25000
+  gradeA: 20000
+  gradeB: 15000
+  gradeC: 10000
+  gradeD: 5000
+  gradeE: 2500
+  hGradeS: 40000
+  hGradeA: 30000
+  hGradeB: 20000
+  hGradeC: 12000
+  hGradeD: 5000
+  hGradeE: 3000
+  gaugeMaxDestructionPoints: 100
+  missesForGameOver: 7
+  allowed_misses_per_layer: 4
+  required_hits_to_advance_music: 1
+  hitsForMeteor: 0
+  timeToWaitBeforeFall: 1
+  destructionFallingSpeed: 2
+  multiplier1: 0.226
+  multiplier2: 0.438
+  multiplier3: 0.656
+  currentMultiplier: 1
+  currentCombo: 1
+  currentScore: 0
+  currentDestructionPoints: 100
+  currentLayer: 1
+  currentMisses: 0
+  currentLayerMisses: 0
+  currentLayerPerfectHits: 0
+  totalSessionPerfectHits: 0
+  totalSessionMisses: 0
+  totalSessionLateHits: 0
+  totalSessionEarlyHits: 0
+  maxSessionCombo: 0
+  totalSessionBuildingsDestroyed: 0
+  destroyBuildingsAbility: 1
+  grabMeteorsAbility: 1
+  grabGaugeAbility: 0
+  gaugePercentage: 0
+  rank: 
+  nextRankThreshold: 

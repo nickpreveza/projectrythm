@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2175181881462428198
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2175181881462428196}
+  - component: {fileID: 2175181881462428197}
+  m_Layer: 0
+  m_Name: LevelDesigner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2175181881462428196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175181881462428198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2175181881462428197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175181881462428198}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade7f011d4efa1542bd76a64c7893743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normal: {fileID: 21300000, guid: 132cc8de1b580a447a9c8d41fe34c4cb, type: 3}
+  perfect: {fileID: 21300000, guid: 041c241a98edf044d8e9119f606df61e, type: 3}
+  Duration_until_start_of_song: 0
+  scale_of_max: {x: 1.2, y: 1.2, z: 1}
+  scale_of_perfect: {x: 0.7878, y: 0.7878, z: 1}
+  scale_of_min: {x: 0.3, y: 0.3, z: 1}
+  allowed_offset: {x: 0.15, y: 0.15, z: 1}
+  radius_of_detection: 0.5
+  size_of_detection: {x: 1, y: 1}
+  speed_of_controller: 0
+  indicator_for_upcoming: 1
+  pattern: []
+  timestamps: []
+  Interacted_With: 0
+  Current_Index: 0
+  Duration_Until_Perfect: 0
+  Pattern_Number: 0
+  Stopwatch: 0
+  Scale_Increase: {x: 0, y: 0, z: 0}
